@@ -117,7 +117,7 @@ fun_features:
   # 加载进度条
   # Progress bar when loading
   progressbar:
-    enable: true
+    enable: false
     height_px: 3
     color: "#29d"
     # See: https://github.com/rstacruz/nprogress
@@ -138,14 +138,14 @@ dark_mode:
 color:
   # body 背景色
   # Color of body background
-  body_bg_color: "#eee"
+  body_bg_color: "#58C9B9"
   # 暗色模式下的 body 背景色，下同
   # Color in dark mode, the same below
   body_bg_color_dark: "#181c27"
 
   # 顶部菜单背景色
   # Color of navigation bar background
-  navbar_bg_color: "#2f4154"
+  navbar_bg_color: "#A593E0"
   navbar_bg_color_dark: "#1f3144"
 
   # 顶部菜单字体色
@@ -429,6 +429,8 @@ footer:
     <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a>
     <i class="iconfont icon-love"></i>
     <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a>
+    <i class="iconfont icon-love"></i>
+    <a href="https://icp.gov.moe/?keyword=20226555" target="_blank">萌ICP备20226555号</a>
   '
 
   # 展示网站的 PV、UV 统计数
