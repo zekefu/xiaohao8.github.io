@@ -18,7 +18,7 @@
 
 # 用于浏览器标签的图标
 # Icon for browser tab
-favicon: /img/fluid.png
+favicon: /img/favicon.ico
 
 # 用于苹果设备的图标
 # Icon for Apple touch
@@ -138,7 +138,7 @@ dark_mode:
 color:
   # body 背景色
   # Color of body background
-  body_bg_color: "#58C9B9"
+  body_bg_color: "#fff"
   # 暗色模式下的 body 背景色，下同
   # Color in dark mode, the same below
   body_bg_color_dark: "#181c27"
@@ -352,7 +352,7 @@ navbar:
     - { key: "tag", link: "/tags/", icon: "iconfont icon-tags-fill" }
     - { key: "about", link: "/about/", icon: "iconfont icon-user-fill" }
     - { key: 'Admin', link: '/admin/', icon: "iconfont icon-users" }
-    #- { key: "links", link: "/links/", icon: "iconfont icon-link-fill" }
+    - { key: "links", link: "/links/", icon: "iconfont icon-link-fill" }
 
 # 搜索功能，基于 hexo-generator-search 插件，若已安装其他搜索插件请关闭此功能，以避免生成多余的索引文件
 # Search feature, based on hexo-generator-search. If you have installed other search plugins, please disable this feature to avoid generating redundant index files
@@ -439,7 +439,7 @@ footer:
 
     function createtime() { 
 
-        var grt= new Date("01/09/2022 17:00:00");//在此处修改你的建站时间
+        var grt= new Date("09/01//2022 17:00:00");//在此处修改你的建站时间
 
         now.setTime(now.getTime()+250); 
 
@@ -631,7 +631,7 @@ post:
 
     # 是否使用相对时间表示，比如："3 天前"
     # If true, it will be a relative time, such as: "3 days ago"
-    relative: false
+    relative: true
 
     # 提示标签类型
     # Note class
