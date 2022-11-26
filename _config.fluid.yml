@@ -464,7 +464,12 @@ footer:
 setInterval("createtime()",250);
 
 </script>
-  '
+ <a href="https://travellings.link/" target="_blank" rel="noopener" title="开往-友链接力">
+
+    <img src="https://travellings.link/assets/logo.gif" alt="开往-友链接力" width="120">
+
+</a>
+ '
 
   # 展示网站的 PV、UV 统计数
   # Display website PV and UV statistics
