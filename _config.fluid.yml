@@ -464,12 +464,14 @@ footer:
 
 setInterval("createtime()",250);
 
+
 </script>
  <a href="https://travellings.link/" target="_blank" rel="noopener" title="开往-友链接力">
 
     <img src="https://travellings.link/assets/logo.gif" alt="开往-友链接力" width="120">
 
 </a>
+
 <span id="jinrishici-sentence">正在加载今日诗词....</span>
 
 <script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
