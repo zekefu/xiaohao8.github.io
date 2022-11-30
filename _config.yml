@@ -177,3 +177,18 @@ image_minifier:
   pngquant: false
   progressive: false
   silent: true
+#RSS订阅
+
+plugin:
+
+- hexo-generator-feed
+
+#Feed Atom
+
+feed:
+
+type: atom
+
+path: atom.xml
+
+limit: 20
